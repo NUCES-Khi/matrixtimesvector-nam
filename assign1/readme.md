@@ -1,6 +1,10 @@
 # Assignment 1
 ## Team Members
-//-- place table as shown in main readme.md file --//
+|std_id|Name|
+|--------|-|
+|k21-3001|Noufal Ehhab|
+|k21-3057|Affan Iqbal|
+|k21-3078|Midhat Masood|
 ## Output Screenshots
 //-- Add output screenshots here. --//
 ## Results and Analysis
