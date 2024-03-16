@@ -1,3 +1,9 @@
+/*
+ *Programmer(s): Noufal Ehaab, Midhat Masood and Affan Iqbal
+ *Date: 11th March 2024
+ *Desc: MPI version of matrix multiplication Naive.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
