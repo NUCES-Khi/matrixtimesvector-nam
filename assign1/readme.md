@@ -6,7 +6,8 @@
 |k21-3057|Affan Iqbal|
 |k21-3078|Midhat Masood|
 ## Output Screenshots
-//-- Add output screenshots here. --//
+![PC_A](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a4d1557b-de18-427f-8e09-7a92edd0f266)
+
 ## Results and Analysis
 **The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:**
 
