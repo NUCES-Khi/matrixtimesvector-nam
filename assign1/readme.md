@@ -2,7 +2,7 @@
 ## Team Members
 |std_id|Name|
 |--------|-|
-|k21-3001|Noufal Ehhab|
+|k21-3001|Noufal Ehaab|
 |k21-3057|Affan Iqbal|
 |k21-3078|Midhat Masood|
 ## Output Screenshots
@@ -14,23 +14,23 @@
 
   Specifications of PC-A: 
   - RAM: 8GB
-  - Processors: Intel Core i5-8th Gen
+  - Processor: Intel Core i5-8th Gen
   - OS: Windows 10
 
   Result of Benchmarking:
 
-  | Size \ Filename | Sequential | OpenMP Naive | OpenMP Tiling | MPI Naive | MPI Tiling |
+  | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
   |--|-|-|-|-|-|
-  |64|| 
-  |128||
-  |256||
-  |512||
-  |1024||
-  |2048||
-  |4096||
-  |8192||
-  |16384||
-  |32768||
+  |64|0| 
+  |128|0|
+  |256|0|
+  |512|0.1|
+  |1024|0.1|
+  |2048|0.2|
+  |4096|0.9|
+  |8192|3.1|
+  |16384|19.3|
+  |32768|123.6|
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 ## Major Problems Encountered
