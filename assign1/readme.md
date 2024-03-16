@@ -12,8 +12,9 @@ Batch File:
 ![image](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162920031/3c283993-199c-411b-b148-93d889ed6cbc)
 ![image](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162920031/ae73be10-1708-40b1-9751-1ee5913bd40c)
 
-
+Output:
 ![1](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/68511366-e641-47c3-9a88-66203ce5302c)
+![2](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/2eaa0c69-8786-434d-9695-16a773a11ff2)
 
 ## Results and Analysis
 **The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:**
