@@ -17,9 +17,9 @@
 
   Result of Benchmarking:
 
-  |Size\Filename|Sequential | OpenMP Naive|
-  |--|--|--|
-  |64||
+  | Size \ Filename | Sequential | OpenMP Naive | OpenMP Tiling | MPI Naive | MPI Tiling |
+  |--|-|-|-|-|-|
+  |64|| 
   |128||
   |256||
   |512||
