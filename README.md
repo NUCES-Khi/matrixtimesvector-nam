@@ -8,8 +8,8 @@
 |k21-3078|Midhat Masood|
 
 ## Assingment 1 ##
-Status: **In progress**
-//--Change the status to complete once your assignment is completed and you think it can be marked. --//
+Status: **Completed**
+
 
 ## Assignment 2 ##
 Status: **Not assigned yet**
