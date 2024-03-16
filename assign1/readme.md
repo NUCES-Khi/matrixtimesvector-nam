@@ -71,12 +71,12 @@ Output:
 
   ![PC_B](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a6e900a1-6538-4c8f-a4ab-a04b6206c331)
 
-  **Analysis:**
+  **Analysis:**\
  ** Sequential Execution:**
 
-  . Sequential execution performs computations one after another without parallelization.
-  . Both PC-A and PC-B show similar performance in sequential execution.
-  . As matrix size increases, execution time also increases linearly.
+  - Sequential execution performs computations one after another without parallelization.
+  - Both PC-A and PC-B show similar performance in sequential execution.
+  - As matrix size increases, execution time also increases linearly.
 **OpenMP Execution:**
 
   . OpenMP parallelization divides the work among threads on a shared-memory system.
