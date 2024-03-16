@@ -16,10 +16,12 @@
   - OS: Windows 10
 
   Result of Benchmarking:
-  
-  **|Size\Filename|** Sequential|
-  
-  |64|
+
+  |Size\Filename|Sequential OpenMP Naive|
+  |--------|-|
+  |64|Noufal Ehhab|
+  |k21-3057|Affan Iqbal|
+  |k21-3078|Midhat Masood|
 
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
