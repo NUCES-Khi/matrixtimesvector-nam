@@ -59,8 +59,8 @@ I# Assignment 1
   | 8192 | 1.4 | 1.4 | 1.4 | 1.3 | 1.6 |
   | 16384 | 6.3 | 5.6 | 6.7 | 5.8 | 6.5 |
   | 32768 | 28 | 24.4 | 26.7 | 24.3 | 28.5 |
-  
-//-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
+
+  ![PC_B](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a6e900a1-6538-4c8f-a4ab-a04b6206c331)
 
 ## Major Problems Encountered
 1. Issue 1: Parallelizing in MPI tiling approach
