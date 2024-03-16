@@ -100,7 +100,7 @@ Output:
   - MPI Tiling combines MPI parallelization with data tiling for distributed-memory systems.
   - Both PCs demonstrate further performance improvement with MPI Tiling compared to MPI Naive approach.
   - Tiling reduces communication overhead by minimizing data transfer between processes.
-  - PC-B maintains its performance advantage over PC-A, suggesting better hardware utilization and scalability.
+  - However PC-A is unexpectedly performing better than PC-B. 
 ### **Overall Analysis:**
 
   - Regardless of PC specifications, the implementation technique significantly impacts performance.
