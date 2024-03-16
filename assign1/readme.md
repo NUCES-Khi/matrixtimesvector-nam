@@ -63,10 +63,12 @@ I# Assignment 1
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 
 ## Major Problems Encountered
-1. Issue 1: Blah blah .....
-    - Solution1: tried to blah blahb
-    - Solution2: treid to blab blah
+1. Issue 1: Parallelizing in MPI tiling approach
+   The result vector was constantly throwing random pointer address. 
+    - Solution1: Tried different approaches to debug even used different mpi functions to distribute the data. 
+    - Solution2: Finally used MPI reduce with tiling approach taught in class.
     - **Resolved**
-3. Issue 2: Blah blah blah ....
-    - Solution1: tried to blah blahb
-    - **Resolved**
+3. Issue 2: Calculating exact executing time in bash scripting.
+    - Solution1: Tried to show time in miliseconds and centiseconds but bash scripting failed to show the time.     
+      Finally used seconds to calculate time. Averaging helped us to calculate correct estimated time.
+    - **Partially Resolved**
