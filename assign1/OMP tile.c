@@ -63,7 +63,7 @@ void matrix_vector_multiply(int** matrix, int* vector, int* result, int rows, in
 
 int main(int argc, char* argv[]) {
     if (argc != 3) {
-        printf("Usage: %s <matrix size> <vector size>\n", argv[0]);
+        //printf("Usage: %s <matrix size> <vector size>\n", argv[0]);
         return 1;
     }
 
@@ -85,16 +85,16 @@ int main(int argc, char* argv[]) {
     fill_vector(vector, vector_size);
 
     // Print the matrix, vector, and results
-    print_matrix(matrix, matrix_size, vector_size);
-    printf("\n");
-    print_vector(vector, vector_size);
-    printf("\n");
+    // print_matrix(matrix, matrix_size, vector_size);
+    // printf("\n");
+    // print_vector(vector, vector_size);
+    // printf("\n");
 
     // Perform matrix-vector multiplication
     matrix_vector_multiply(matrix, vector, result, matrix_size, vector_size);
 
     // Print the result
-    print_result(result, matrix_size);
+    //print_result(result, matrix_size);
 
     // Free allocated memory
     for (int i = 0; i < matrix_size; i++) {
