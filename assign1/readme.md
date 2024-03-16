@@ -12,7 +12,7 @@
 
 **1. PC-A**
 
-  Specifications of PC-A: 
+  Specifications: 
   - RAM: 8GB
   - Processor: Intel Core i5-8th Gen
   - OS: Windows 10 Enterprise
