@@ -1,7 +1,7 @@
 /*
  *Programmer(s): Noufal Ehaab, Midhat Masood and Affan Iqbal
  *Date: 13th March 2024
- *Desc: MPI version of matrix multiplication using Tiling.
+ *Desc: MPI version of matrix vector multiplication using Tiling.
 */
 
 #include <stdio.h>
