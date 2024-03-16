@@ -68,7 +68,7 @@ I# Assignment 1
     - Solution1: Tried different approaches to debug even used different mpi functions to distribute the data. 
     - Solution2: Finally used MPI reduce with tiling approach taught in class.
     - **Resolved**
-3. Issue 2: Calculating exact executing time in bash scripting.
+3. Issue 2: Calculating exact executing time in batch scripting.
     - Solution1: Tried to show time in miliseconds and centiseconds but bash scripting failed to show the time.     
       Finally used seconds to calculate time. Averaging helped us to calculate correct estimated time.
     - **Partially Resolved**
