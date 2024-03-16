@@ -88,7 +88,7 @@ int main(int argc, char* argv[]) {
 
     // Fill the matrix and vector with random values on root process
     if (rank == 0) {
-        printf("MPI Implementation\n");
+        printf("MPI Naive Implementation\n");
         srand(time(NULL)); // Seed for random numbers
         fill_matrix(matrix, matrix_size, vector_size);
         fill_vector(vector, vector_size);
