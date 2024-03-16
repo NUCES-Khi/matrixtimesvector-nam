@@ -72,42 +72,42 @@ Output:
   ![PC_B](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a6e900a1-6538-4c8f-a4ab-a04b6206c331)
 
   **Analysis:**\
- ** Sequential Execution:**
+  
+ **Sequential Execution:**
 
   - Sequential execution performs computations one after another without parallelization.
   - Both PC-A and PC-B show similar performance in sequential execution.
   - As matrix size increases, execution time also increases linearly.
 **OpenMP Execution:**
 
-  . OpenMP parallelization divides the work among threads on a shared-memory system.
-  . Both PCs show improved performance with OpenMP parallelization compared to sequential execution.
-  . PC-B generally outperforms PC-A in OpenMP execution across all matrix sizes, likely due to its better hardware       specifications.
+  - OpenMP parallelization divides the work among threads on a shared-memory system.
+  - Both PCs show improved performance with OpenMP parallelization compared to sequential execution.
+  - PC-B generally outperforms PC-A in OpenMP execution across all matrix sizes, likely due to its better hardware       specifications.
 **OpenMP Tiling:**
 
-  . OpenMP Tiling optimizes cache usage by partitioning data into smaller blocks.
-  . Both PCs exhibit improved performance with OpenMP Tiling compared to the naive OpenMP approach.
-  . Tiling helps reduce cache misses and improves data locality, resulting in faster execution times.
-  . PC-B continues to outperform PC-A, although the performance gap may vary depending on the matrix size and cache      efficiency.
+  - OpenMP Tiling optimizes cache usage by partitioning data into smaller blocks.
+  - Both PCs exhibit improved performance with OpenMP Tiling compared to the naive OpenMP approach.
+  - Tiling helps reduce cache misses and improves data locality, resulting in faster execution times.
+  - PC-B continues to outperform PC-A, although the performance gap may vary depending on the matrix size and cache      efficiency.
 **MPI Execution:**
 
-  . MPI parallelization distributes work among separate processes in a distributed-memory system.
-  . Both PCs show improved performance with MPI parallelization compared to OpenMP.
-  . MPI execution is particularly beneficial for large matrix sizes where communication overhead is outweighed by        parallel processing gains.
-  . PC-B consistently outperforms PC-A in MPI execution, indicating better scalability and efficiency.
+  - MPI parallelization distributes work among separate processes in a distributed-memory system.
+  - Both PCs show improved performance with MPI parallelization compared to OpenMP.
+  - MPI execution is particularly beneficial for large matrix sizes where communication overhead is outweighed by        parallel processing gains.
+  - PC-B consistently outperforms PC-A in MPI execution, indicating better scalability and efficiency.
 **MPI Tiling:**
 
-  . MPI Tiling combines MPI parallelization with data tiling for distributed-memory systems.
-  . Both PCs demonstrate further performance improvement with MPI Tiling compared to MPI Naive approach.
-  . Tiling reduces communication overhead by minimizing data transfer between processes.
-  . PC-B maintains its performance advantage over PC-A, suggesting better hardware utilization and scalability.
+  - MPI Tiling combines MPI parallelization with data tiling for distributed-memory systems.
+  - Both PCs demonstrate further performance improvement with MPI Tiling compared to MPI Naive approach.
+  - Tiling reduces communication overhead by minimizing data transfer between processes.
+  - PC-B maintains its performance advantage over PC-A, suggesting better hardware utilization and scalability.
 **Overall Analysis:**
 
-  . Regardless of PC specifications, the implementation technique significantly impacts performance.
-  . OpenMP and MPI parallelization offer substantial speedup over sequential execution, with MPI showing better          scalability for larger datasets.
-  . Tiling techniques further enhance performance by optimizing cache usage and reducing communication overhead.
-  . PC-B consistently outperforms PC-A across all implementation techniques, indicating the importance of hardware       capabilities in parallel computing tasks.
-  
-  **MPI (MPI_Tiling for PC-A and MPI_Naive for PC-B) proved to be the most efficient for matrix vector multiplication whereas    sequential proved to be the worst.**
+  - Regardless of PC specifications, the implementation technique significantly impacts performance.
+  - OpenMP and MPI parallelization offer substantial speedup over sequential execution, with MPI showing better          scalability for larger datasets.
+  - Tiling techniques further enhance performance by optimizing cache usage and reducing communication overhead.
+  - PC-B consistently outperforms PC-A across all implementation techniques, indicating the importance of hardware       capabilities in parallel computing tasks.
+  - **MPI (MPI_Tiling for PC-A and MPI_Naive for PC-B) proved to be the most efficient for matrix vector multiplication whereas    sequential proved to be the worst.**
   
 ## Major Problems Encountered
 1. Issue 1: Parallelizing in MPI tiling approach
