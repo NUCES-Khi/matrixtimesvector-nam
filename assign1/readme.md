@@ -67,7 +67,6 @@ Batch File:
 
   **Analysis:**
   MPI (MPI_Tiling for PC-A and MPI_Naive for PC-B) proved to be the most efficient for matrix vector multiplication whereas sequential proved to be the worst.
-
 ## Major Problems Encountered
 1. Issue 1: Parallelizing in MPI tiling approach
    The result vector was constantly throwing random pointer address. 
