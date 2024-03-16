@@ -45,6 +45,7 @@ int main(int argc, char* argv[]) {
 
     // Generate random matrix and vector elements
     if (rank == 0) {
+        printf("MPI Tile Implementation");
         printf("Random Matrix:\n");
     }
     for (int i = 0; i < N; i++) {
