@@ -18,7 +18,7 @@
   - OS: Windows 10 Enterprise
 
   Result of Benchmarking:
-
+  
   | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
   |--|-|-|-|-|-|
   | 64 | 0 | 0 | 0 | 0 | 0 |
@@ -32,6 +32,8 @@
   | 16384 | 19.3 | 20.1 | 0 | 0 | 0 |
   | 32768 | 123.6 | 0 | 0 | 0 | 0 |
 
+  Analysis:
+  
 
   **1. PC-B**
 
