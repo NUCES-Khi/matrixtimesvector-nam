@@ -8,11 +8,12 @@
 ## Output Screenshots
 //-- Add output screenshots here. --//
 ## Results and Analysis
-The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:
+**The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:**
 Specifications of PC-A: 
 - RAM: 8GB
 - Processors: Intel Core i5-8th Gen
-- OS: Windows 10 
+- OS: Windows 10
+  
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 ## Major Problems Encountered
 1. Issue 1: Blah blah .....
