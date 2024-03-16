@@ -41,24 +41,24 @@ I# Assignment 1
   **1. PC-B**
 
   Specifications: 
-  - RAM: 
-  - Processor: 
-  - OS: Windows 
+  - RAM: 16GB
+  - Processor: Intel Core i5-11th Gen
+  - OS: Windows 11 Pro
 
   Result of Benchmarking:
 
   | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
   |--|-|-|-|-|-|
-  | 64 |  |  |  |  |  |
-  | 128 |  |  |  |  |  |
-  | 256 |  |  |  |  |  |
-  | 512 |  |  |  |  |  |
-  | 1024 |  |  |  |  |  |
-  | 2048 |  |  |  |  |  |
-  | 4096 |  |  |  |  |  |
-  | 8192 |  |  |  |  |  |
-  | 16384 |  |  |  |  |  |
-  | 32768 |  |  |  |  |  |
+  | 64 | 0 | 0 | 0 | 0.1 | 0 |
+  | 128 | 0.1 | 0 | 0.1 | 0 | 0 |
+  | 256 | 0 | 0 | 0 | 0 | 0 |
+  | 512 | 0 | 0.1 | 0 | 0 | 0.1 |
+  | 1024 | 0 | 0 | 0 | 0.1 | 0 |
+  | 2048 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
+  | 4096 | 0.4 | 0.3 | 0.4 | 0.3 | 0.4 |
+  | 8192 | 1.4 | 1.4 | 1.4 | 1.3 | 1.6 |
+  | 16384 | 6.3 | 5.6 | 6.7 | 5.8 | 6.5 |
+  | 32768 | 28 | 24.4 | 26.7 | 24.3 | 28.5 |
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 
