@@ -35,9 +35,6 @@ I# Assignment 1
 
 ![PC_A](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a4d1557b-de18-427f-8e09-7a92edd0f266)
 
-  Analysis:
-  MPI Tiling proved to be the most efficient for matrix vector multiplication in this environment.
-
   **1. PC-B**
 
   Specifications: 
@@ -61,6 +58,9 @@ I# Assignment 1
   | 32768 | 28 | 24.4 | 26.7 | 24.3 | 28.5 |
 
   ![PC_B](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a6e900a1-6538-4c8f-a4ab-a04b6206c331)
+
+  **Analysis:**
+  MPI (MPI_Tiling for PC-A and MPI_Naive for PC-B) proved to be the most efficient for matrix vector multiplication whereas sequential proved to be the worst.
 
 ## Major Problems Encountered
 1. Issue 1: Parallelizing in MPI tiling approach
