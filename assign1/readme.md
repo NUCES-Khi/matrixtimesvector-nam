@@ -17,12 +17,18 @@
 
   Result of Benchmarking:
 
-  |Size\Filename|Sequential OpenMP Naive|
-  |--------|-|
-  |64|Noufal Ehhab|
-  |k21-3057|Affan Iqbal|
-  |k21-3078|Midhat Masood|
-
+  |Size\Filename|Sequential | OpenMP Naive|
+  |--|--|--|
+  |64||
+  |128||
+  |256||
+  |512||
+  |1024||
+  |2048||
+  |4096||
+  |8192||
+  |16384||
+  |32768||
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 ## Major Problems Encountered
