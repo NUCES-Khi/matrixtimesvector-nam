@@ -8,6 +8,14 @@ I# Assignment 1
 ## Output Screenshots
 
 
+Batch File:
+![image](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162920031/3c283993-199c-411b-b148-93d889ed6cbc)
+:
+:
+![image](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162920031/ae73be10-1708-40b1-9751-1ee5913bd40c)
+
+
+
 ## Results and Analysis
 **The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:**
 
