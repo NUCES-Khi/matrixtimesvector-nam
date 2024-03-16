@@ -1,4 +1,4 @@
-I# Assignment 1
+# Assignment 1
 ## Team Members
 |std_id|Name|
 |--------|-|
