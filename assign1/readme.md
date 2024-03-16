@@ -21,16 +21,16 @@
 
   | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
   |--|-|-|-|-|-|
-  |64|0| 
-  |128|0|
-  |256|0|
-  |512|0.1|
-  |1024|0.1|
-  |2048|0.2|
-  |4096|0.9|
-  |8192|3.1|
-  |16384|19.3|
-  |32768|123.6|
+  | 64 | 0 | 
+  | 128 | 0 |
+  | 256 | 0 |
+  | 512 | 0.1 |
+  | 1024 | 0.1 |
+  | 2048 | 0.2 |
+  | 4096 | 0.9 |
+  | 8192 | 3.1 |
+  | 16384 | 19.3 |
+  | 32768 | 123.6 |
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 ## Major Problems Encountered
