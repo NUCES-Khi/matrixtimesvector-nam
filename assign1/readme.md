@@ -15,6 +15,10 @@ Batch File:
 Output:
 ![1](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/68511366-e641-47c3-9a88-66203ce5302c)
 ![2](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/2eaa0c69-8786-434d-9695-16a773a11ff2)
+![OMP tile](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/126159610/5f439d21-a32b-46fd-917a-7b88928066ea)
+![MPI Naive](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/126159610/addca689-2ef1-46a1-a303-79f01e3edf0c)
+![MPI tile](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/126159610/f1c69d7a-6975-4e11-b898-4c542065bfe1)
+
 
 ## Results and Analysis
 **The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:**
