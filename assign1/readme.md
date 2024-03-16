@@ -1,4 +1,4 @@
-# Assignment 1
+I# Assignment 1
 ## Team Members
 |std_id|Name|
 |--------|-|
@@ -6,7 +6,7 @@
 |k21-3057|Affan Iqbal|
 |k21-3078|Midhat Masood|
 ## Output Screenshots
-![PC_A](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a4d1557b-de18-427f-8e09-7a92edd0f266)
+
 
 ## Results and Analysis
 **The Benchmarking is Performed on 2 different PCs to futher analyse the efficiency:**
@@ -32,6 +32,8 @@
   | 8192 | 3.1 | 3.4 | 3.9 | 3.8 | 0 |
   | 16384 | 19.3 | 12.9 | 16.8 | 13.2 | 0.1 |
   | 32768 | 123.6 | 55.6 | 64.2 | 71.7 | 0 |
+
+![PC_A](https://github.com/NUCES-Khi/matrixtimesvector-nam/assets/162918850/a4d1557b-de18-427f-8e09-7a92edd0f266)
 
   Analysis:
   
