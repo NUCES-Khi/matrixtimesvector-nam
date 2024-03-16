@@ -1,7 +1,7 @@
 /*
  *Programmer(s): Noufal Ehaab, Midhat Masood and Affan Iqbal
  *Date: 11th March 2024
- *Desc: MPI version of matrix multiplication Naive.
+ *Desc: MPI version of matrix vector multiplication Naive.
 */
 
 #include <stdio.h>
