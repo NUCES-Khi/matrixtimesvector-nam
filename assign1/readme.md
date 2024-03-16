@@ -15,24 +15,25 @@
   Specifications of PC-A: 
   - RAM: 8GB
   - Processor: Intel Core i5-8th Gen
-  - OS: Windows 10
+  - OS: Windows 10 Enterprise
 
   Result of Benchmarking:
 
   | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
   |--|-|-|-|-|-|
-  | 64 | 0 | 
-  | 128 | 0 |
-  | 256 | 0 |
-  | 512 | 0.1 |
-  | 1024 | 0.1 |
-  | 2048 | 0.2 |
-  | 4096 | 0.9 |
-  | 8192 | 3.1 |
-  | 16384 | 19.3 |
-  | 32768 | 123.6 |
+  | 64 | 0 | 0 |
+  | 128 | 0 | 0 |
+  | 256 | 0 | 0 |
+  | 512 | 0.1 | 0 |
+  | 1024 | 0.1 | 0.1 |
+  | 2048 | 0.2 | 0.2 |
+  | 4096 | 0.9 | 0.9 |
+  | 8192 | 3.1 | 3.4 |
+  | 16384 | 19.3 | 20.1 |
+  | 32768 | 123.6 | 
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
+
 ## Major Problems Encountered
 1. Issue 1: Blah blah .....
     - Solution1: tried to blah blahb
