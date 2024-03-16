@@ -21,7 +21,7 @@
 
   | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
   |--|-|-|-|-|-|
-  | 64 | 0 | 0 |
+  | 64 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
   | 128 | 0 | 0 |
   | 256 | 0 | 0 |
   | 512 | 0.1 | 0 |
