@@ -31,6 +31,28 @@
   | 8192 | 3.1 | 3.4 | 0 | 0 | 0 |
   | 16384 | 19.3 | 20.1 | 0 | 0 | 0 |
   | 32768 | 123.6 | 0 | 0 | 0 | 0 |
+
+  **1. PC-B**
+
+  Specifications: 
+  - RAM: 
+  - Processor: 
+  - OS: Windows 
+
+  Result of Benchmarking:
+
+  | Size \ Filename | Sequential (secs) | OpenMP Naive (secs) | OpenMP Tiling (secs) | MPI Naive (secs) | MPI Tiling (secs) |
+  |--|-|-|-|-|-|
+  | 64 |  |  |  |  |  |
+  | 128 |  |  |  |  |  |
+  | 256 |  |  |  |  |  |
+  | 512 |  |  |  |  |  |
+  | 1024 |  |  |  |  |  |
+  | 2048 |  |  |  |  |  |
+  | 4096 |  |  |  |  |  |
+  | 8192 |  |  |  |  |  |
+  | 16384 |  |  |  |  |  |
+  | 32768 |  |  |  |  |  |
   
 //-- Show graphs results and charts where necessary and discuss the results and what they signify. --// 
 
